@@ -1,0 +1,232 @@
+*{
+padding: 0;
+margin: 0;
+
+}
+.header{
+    
+
+    
+
+    background: rgb(246,232,232);
+background: linear-gradient(180deg, rgba(246,232,232,1) 0%, rgba(228,129,145,1) 100%);
+
+    
+
+    width: 100%;;
+    height: 100px;
+    
+}
+body{
+    background-color: #d0cece;
+}
+.head-left{
+ 
+    float: left;
+    width: 65%;
+    height: 95px;
+}
+.head-right{
+
+    float: left;
+    
+    width: 35%;
+    height: 95px;
+}
+.logo{
+    width: 100px;
+    float: left;
+}
+.tab{
+    border-color: coral;
+    border-radius: 8px;
+    margin-left: 106px;
+    float: left;
+    width: 550px;
+    height: 30px;
+    margin-top: 46px;
+}
+#lens{
+    cursor: pointer;
+    width: 23px;
+    float: left;
+    margin-left: -32px;
+    margin-top: 52px;
+}
+#profile{
+    float: left;
+    width: 30px;
+    margin-top: 20px;
+    margin-left: 5px;
+}
+#signup{
+    border: hidden;
+    background-color: rgba(255, 99, 71, 0);
+    text-decoration: none;
+    float: left;
+    margin-top: 34px;
+    margin-left: 15px;
+    color: black;
+    font-size: medium;
+    font-weight: bold;
+    font-family: fangsong;
+    width: 75px;
+    
+}
+
+.signup-div:hover{
+    background-color: aliceblue;
+ 
+    
+}
+.signup-div{
+    margin-top: 26px;
+    float: left;
+    border-radius: 5%;
+    width: 150px;
+    height: 20px;
+    padding-bottom: 44px;
+    border-color: black;
+    border-width: thick;
+    
+}
+
+
+.cart{
+    float: left;
+    
+    width: 200px;
+    height: 100px;
+}
+
+#cart-image{
+    color: black;
+    float: left;
+    width: 30px;
+    margin-top: 46px;
+    margin-left: 42px;
+}
+#cart-text{
+    font-size: medium;
+    font-weight: bold;
+    margin-top: 60px;
+    font-family: fangsong;
+    margin-left: 89px;
+}
+#wishlist-image{
+    float: left;
+    width: 26px;
+    margin-top: 50px;
+    margin-left: -30px;
+}
+
+#location-image{
+    float: left;
+    width: 19px;
+    margin-top: 48px;
+    margin-left: 53px;
+}
+#moreoption-image{
+    float: left;
+    width: 25px;
+    margin-top: 49px;
+    margin-left: 56px;
+}
+
+.more{
+    float: left;
+    text-align: left;
+    width: 100px;
+    
+}
+.more-content{
+    text-align: right;
+    position: relative;
+    z-index: 1;
+    display: none;
+    margin-left: -25px;
+    margin-top: 100px;
+    width: 115px;
+    height: 80px;
+    border-radius: 10px;
+    border: solid slategrey;
+    background-color: aliceblue;
+}
+.more-content-link:hover{
+    background-color: aquamarine;
+}
+.more:hover .more-content{
+display: block;
+}
+.poster-div{
+    margin-top: 5px;
+    position: relative;
+    z-index: 0;
+    float: left;
+    width: 100%;
+}
+#search-button{
+    background-color: rgba(255, 99, 71, 0) ;
+    border: hidden;
+}
+a{
+    text-decoration: none;
+    font-weight: bold;
+    width: 250px;
+    color: black;
+    
+}
+.middile-left{
+    width: 25%;
+    float: left;
+}
+.middile-mid{
+    width: 50%;
+    float: left;
+}
+.middile-right{
+    width: 25%;
+    float: left;
+}
+#middil-mid-clipart{
+    float: left;
+    width: 60%;
+    margin-left: 20%;
+    margin-top: 10px;
+    vertical-align: bottom;
+}
+.video-youtube{
+    margin-top: 10px;
+    width: 50%;
+    float: left;
+    height: 400px;
+    
+}
+.image-offer{
+    background-color: cadetblue;
+    margin-top: 10px;
+    margin-left: 1%;
+    width: 49%;
+    height: 400px;
+    float: left;
+    z-index: 100;
+}
+.image-offer-item{
+    margin-left: 70px;
+   margin-top: 15px;
+    width: 145px;
+}
+.footer{
+    margin-top: 10px;
+    float: left;
+    padding-top: 20px;
+    width: 100%;
+    height: 130px;
+    background-color: rosybrown;
+}
+.table-data{
+    
+    padding-left: 15px;
+   
+border-left: 1px solid black;
+}
